@@ -1,0 +1,263 @@
+/**
+ * Widegts styling
+ *
+ */
+
+ /**********************
+    Heading field
+ ***********************/
+ .newsis-heading-field {
+    border-top: 1px double rgb(0 0 0 / 25%);
+    border-bottom: 1px double rgb(0 0 0 / 25%);
+    text-transform: uppercase;
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: -10px;
+    padding: 6px 20px;
+ }
+
+ .newsis-heading-field .heading {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+ }
+
+ .newsis-widget-field {
+   margin: 1em 0;
+ }
+
+ .newsis-widget-field .title {
+    font-size: small;
+    margin: 4px 0;
+ }
+
+ .newsis-widget-field .description {
+   font-style: italic;
+   padding: 0!important;
+ }
+
+ .newsis-multicheckbox-field .multicheckbox-content {
+   border: 1px solid #c3c4c7;
+   padding: 8px 10px;
+   min-height: 200px;
+   overflow-y: scroll;
+ }
+
+ .newsis-multicheckbox-field .multicheckbox-content .multicheckbox-single-item {
+   padding: 5px;
+ }
+
+ .newsis-widget-field input,
+ .newsis-widget-field select,
+ .newsis-widget-field textarea {
+   border-radius: 0;
+ }
+
+ .newsis-upload-field .upload-trigger.selected,
+ .newsis-upload-field .upload-buttons img.nothasImage,
+ .newsis-upload-field .upload-buttons.not-selected {
+   display: none;
+ }
+
+ .newsis-upload-field .upload-trigger {
+    background-color: #f0f0f1;
+    color: #2c3338;
+    border: 1px dashed #c3c4c7;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 1.6;
+    padding: 9px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.newsis-upload-field .upload-trigger:hover {
+  background-color: #fff;
+}
+
+.newsis-upload-field .upload-buttons button {
+  margin-top: 12px;
+  border-color: #d63638;
+}
+.newsis-upload-field .upload-buttons img{
+  width: 100%;
+}
+
+.newsis-widget-field .refer-note a {
+  color: #2271b1;
+}
+
+.newsis-icon-text-field .icon-selector-wrap {
+  display: none;
+}
+
+/* tab selector */
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-selector i:after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  content: "\f107";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--white-text);
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-field {
+  flex: 1;
+  border: 1px solid #6a6a6a;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-field:hover {
+  cursor: pointer;
+}
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-selector-wrap {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #545454;
+  border-radius: 5px;;
+}
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-selector-wrap i {
+  color: #545454;
+  padding: 5px;
+}
+
+.newsis-widget-field.newsis-icon-text-field .field-group-wrap .icon-selector-wrap i:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/*******************************
+    Repeater field
+*******************************/
+.newsis-repeater-field .repeater-single-item .single-item-edit-area {
+  display: none;
+}
+
+.newsis-repeater-field .repeater-single-item .single-item-edit-area.isShow {
+  display: block;
+}
+
+/** add slider widgets **/
+.newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item{
+  display: flex;
+    padding: 0 0 0 12px;
+    border: 1px solid #ddd;
+    color: #556068;
+    background: #fff;
+    cursor: move;
+    font-size: 12px;
+    border-radius: 3px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+
+    flex-direction: column;
+    width: 98%;
+}
+.newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item .field-actions {
+  text-align: right;
+    margin-top: 20px;
+}
+    
+
+.newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item button.add-item{
+    cursor: pointer;
+    padding: 4px 8px;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border: none;
+    text-align: right;
+  }
+
+  .newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item  .single-item-heading {
+    display: flex;
+
+
+    line-height: 32px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    width: 98%;
+  }
+
+  .newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item  .single-item-heading .heading-text {
+    text-align: left;
+    flex: 0 1 90%;
+  }
+
+  .newsis-widget-field.newsis-repeater-field .repeater-field-content-area .repeater-single-item  .single-item-heading .heading-icon{
+    text-align: right;
+    display: inline-block;
+    flex: 0 1 10%;
+  }
+
+  .single-field.image-field .image-preview img {
+    display: block;
+  }
+
+  .newsis-repeater-field .single-field.image-field .image-preview img {
+    width: 50px;
+  }
+
+  .single-field.image-field .image-preview button {
+    margin: 10px 0;
+  }
+
+  .single-field.image-field .image-preview button:hover {
+    cursor: pointer;
+  }
+
+  .newsis-widget-field.newsis-repeater-field .single-field.image-field .image-preview button,
+  .newsis-widget-field.newsis-repeater-field .single-item-actions .remove-item
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    color: #000;
+    font-weight: 500;
+    margin-right: 5px;
+  }
+
+  .newsis-widget-field.newsis-repeater-field .single-field.image-field label,
+  .newsis-widget-field.newsis-repeater-field .single-item-actions label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+
+.widget-content .field-actions .add-item {
+  padding: 5px 10px;
+    color: #000;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.newsis-widget-field.newsis-repeater-field button {
+  cursor: pointer;
+}
+
+/* Tabbed Posts */
+  .icon-selector-wrap {
+    display: none;
+  }
+
+  .icon-selector-wrap.isactive {
+    display: block;
+  }

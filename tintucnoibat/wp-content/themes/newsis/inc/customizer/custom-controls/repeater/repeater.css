@@ -1,0 +1,216 @@
+/**
+ * Applies styling for repeater control
+ * 
+ * Particular styling for this control
+ */
+ .newsis-repeater-control .newsis-repeater-control-inner {
+    padding: 10px;
+ }
+
+ .newsis-repeater-control .newsis-repeater-control-inner .newsis-repeater-item {
+    background: #ffffff;
+    box-shadow: -2px -2px 2px #e1dfdf;
+    z-index: 2;
+    margin-bottom: 6px;
+ }
+
+ .newsis-repeater-control .newsis-repeater-control-inner .newsis-repeater-item.not-visible {
+    opacity: 0.6;
+    border: 1px dashed;
+ }
+
+ .newsis-repeater-control-inner .newsis-repeater-item h2 {
+    margin: 0;
+ }
+
+ .newsis-repeater-control-inner .newsis-repeater-item .item-heading-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 14px;
+ }
+
+ .newsis-repeater-control-inner .newsis-repeater-item .item-heading-wrap .display-icon,
+ .newsis-repeater-control-inner .newsis-repeater-item .item-heading-wrap .item-heading {
+    cursor: pointer;
+ }
+
+ .newsis-repeater-control-inner .newsis-repeater-item .item-heading-wrap .sortable-icon {
+    cursor: move;
+ }
+
+ .newsis-repeater-control-inner .newsis-repeater-item .item-control-fields {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #00000040;
+}
+
+.newsis-repeater-item .item-control-fields .control--item-label {
+    font-size: 14px;
+}
+
+.newsis-repeater-item .item-control-fields .control--item-description {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.newsis-repeater-item .item-control-fields .single-control {
+    margin-bottom: 8px;
+}
+
+.customize-control .newsis-repeater-control input, 
+.customize-control .newsis-repeater-control textarea,
+.customize-control .newsis-repeater-control .image-holder {
+    width: 100%;
+    margin-top: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border-radius: 0;
+}
+
+.newsis-repeater-control-inner .buttons-wrap {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.newsis-repeater-control-inner .buttons-wrap .add-new-item {
+    cursor: pointer;
+    padding: 4px 8px;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.newsis-repeater-control-inner .remove-item {
+    color: #d63638;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+}
+
+.newsis-repeater-control-inner .image-field .image-holder .add-image-trigger {
+    cursor: pointer;
+    text-align: center;
+    border: 1px dashed #aba9a9;
+    padding: 8px 10px;
+}
+
+
+.newsis-repeater-control-inner .image-field .no-image, 
+.newsis-repeater-control-inner .image-field .no-trigger {
+    display: none;
+}
+
+.newsis-repeater-control-inner .image-field .image-holder .image-element {
+    position: relative;
+}
+
+.newsis-repeater-control-inner .image-field .image-holder .image-element .remove-image {
+    display: none;
+}
+.newsis-repeater-control-inner .image-field .image-holder .image-element:hover .remove-image {
+    position: absolute;
+    cursor: pointer;
+    color: #ff00009e;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    top: 0;
+}
+
+.newsis-repeater-control-inner .image-field .image-holder .image-element:hover img {
+    opacity: 0.5;
+}
+
+/******** Fontawesome Icon picker ****************/
+.newsis-repeater-control .fontawesome-icon-picker .icon-header {
+    cursor: pointer;
+}
+
+.newsis-repeater-control .fontawesome-icon-picker .icons-list i {
+    cursor: pointer;
+}
+
+.newsis-repeater-control .fontawesome-icon-picker .icon-header {
+    display: flex;
+    background: #f0f0f1;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.newsis-repeater-control .fontawesome-icon-picker .icon-header i {
+    font-size: 26px;
+}
+
+.newsis-repeater-control .fontawesome-icon-picker .icon-header > div {
+    flex: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+#customize-control-header_ads_banner_custom_ads_slider .newsis-repeater-control-inner .newsis-repeater-item.popupActive .item-control-fields.isShow {
+    display: block;
+}
+
+#customize-control-header_ads_banner_custom_ads_slider .newsis-repeater-control-inner .newsis-repeater-item.popupActive .item-control-fields {
+    display: block;
+}
+#customize-control-header_ads_banner_custom_ads_slider  .newsis-repeater-control-inner .newsis-repeater-item .item-heading-wrap {
+    display: flex;
+    padding: 0 0 0 12px;
+    border: 1px solid #ddd;
+    color: #556068;
+    background: #fff;
+    cursor: move;
+    font-size: 12px;
+    border-radius: 3px;
+    align-items: center;
+    position: relative;
+}
+
+#customize-control-header_ads_banner_custom_ads_slider .newsis-repeater-control .newsis-repeater-control-inner .newsis-repeater-item {
+    position: relative;
+}
+
+#customize-control-header_ads_banner_custom_ads_slider .newsis-repeater-control .newsis-repeater-control-inner .newsis-repeater-item .item-heading {
+        flex: 1;
+    display: block;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+#customize-control-header_ads_banner_custom_ads_slider  span.settings-icon.dashicons.dashicons-admin-generic,
+#customize-control-header_ads_banner_custom_ads_slider  span.display-icon.dashicons.dashicons-visibility
+ {
+    cursor: pointer;
+    float: right;
+    position: relative;
+    font-size: 16px;
+    padding: 9px;
+    line-height: 20px;
+    border-left: 1px solid #ddd;
+}
+
+#customize-control-header_ads_banner_custom_ads_slider  .newsis-repeater-control-inner .newsis-repeater-item:hover .remove-item {
+    display: block;
+    }
+
+#customize-control-header_ads_banner_custom_ads_slider  .newsis-repeater-control-inner .newsis-repeater-item .remove-item {
+    display: none;
+    position: absolute;
+    right: -10px;
+    border: 1px dashed red;
+    border-radius: 70%;
+    width: 20px;
+    height: 20px; 
+    top: -10px;
+    color: red;
+    text-decoration: none;
+    z-index: 99;
+}
